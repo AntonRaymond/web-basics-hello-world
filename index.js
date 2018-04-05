@@ -19,7 +19,7 @@ function showAnimalTrivia() {
 }
 
 function displayQuestionAndAnswer(question, answer) {
-  $("#results-area").text("True or false?");
+  $("#results-area").text("Oh hi! True or false?");
   $("#question-display").text("Question: " + question);
   $("#answer-display").text("Answer: " + answer);
 }
@@ -47,6 +47,8 @@ function fetchRandomTriviaQuestion(callback) {
     var question = atob(results[0].question);
     var answer = atob(results[0].correct_answer);
 
+	
+	var question = "Oh hi! " + question;
     // call the function we passed into fetchRandomTriviaQuestion
     callback(question, answer);
   })
