@@ -48,7 +48,7 @@ function fetchRandomTriviaQuestion(callback) {
     var answer = atob(results[0].correct_answer);
 
 	
-	var question = "Oh hi! " + question;
+	var question = "Can you tell? " + question;
     // call the function we passed into fetchRandomTriviaQuestion
     callback(question, answer);
   })
