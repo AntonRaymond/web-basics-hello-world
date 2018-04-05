@@ -2,15 +2,15 @@
     color: #5A00FF;
 }
 
-#Header	{
-	color: #1a001a;
+.Header	{
+	color: #ffa64d;
 }
 
 #Header {
 	height: 50px;
 	width: 300px;
 	float: center;
-	background-color: #1a66ff;
+	background-color: #001a4d;
 	
 }
 
